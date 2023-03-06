@@ -1,0 +1,82 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header, main, footer {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  font-family: Arial;
+  font-size: 5rem;
+}
+#problem .expression {
+  font-size: 48px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin: 0 40px;
+}
+
+#answers ul {
+  margin: 0;
+  padding: 0;
+  margin: 40px auto;
+  display:flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+#answers li {
+  margin: 0 20px;
+  padding: 20px 30px;
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+
+#answers li:hover {
+  background-color: #636b29;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  padding: 8px 12px;
+  background-color: #ABD587;
+  text-transform: uppercase;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #80a85d;
+
+}
+
+#btnStart {
+  display: block;
+  margin: 40px auto;
+  padding: 8px 12px;
+  background-color: #ABD587;
+  text-transform: uppercase;
+  border: 0px;
+  border-radius: 4px;
+  font-size: 40px;
+}
+
+.hidden {
+  display:none;
+}
+
+li.selected {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  color:rgb(0, 0, 0);
+}
